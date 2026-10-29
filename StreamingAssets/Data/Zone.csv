@@ -1,0 +1,10 @@
+# 정본 = Studio/projects/ProjectMiner/docs/system/굴 채광(TunnelMining)/system.md 1-2-1-B (AI 잠정 2026-10-24)
+# 줄 순서 = 굴 순서. Deco = 구간의 결(그림만 · 굴 채광 1-3-1-C · None Fossil Vein Speckle Crystal Shard Lava). 마지막 구간 LengthM 0 = 끝없음. 색에 #000000 금지(창의 투명 색 키).
+Id,NameKo,NameEn,LengthM,RequiredLevel,Hardness,OreValue,ExpPerBlock,RockColor,OreColor,Deco
+1,흙,Dirt,100,1,4,1,1,#7A5638,#D9A066,None
+2,석회암,Limestone,150,6,8,3,2,#9C968A,#E8E0C8,Fossil
+3,철광,Iron,200,11,14,6,3,#6E5A50,#C0503E,Vein
+4,화강암,Granite,250,17,22,10,5,#8A7E80,#E8C8D0,Speckle
+5,수정 동굴,Crystal Cave,300,24,32,18,8,#4A4E78,#9AE8F8,Crystal
+6,흑요석,Obsidian,350,32,45,30,12,#3A3046,#B07AE8,Shard
+7,심층 용암,Deep Lava,0,42,60,50,18,#5A2A20,#FF8A30,Lava

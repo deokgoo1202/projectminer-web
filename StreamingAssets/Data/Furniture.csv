@@ -1,0 +1,13 @@
+# 정본 = Studio/projects/ProjectMiner/docs/system/방 꾸미기(Room)/system.md 1-2-1-B (2026-10-27 · D34)
+# Slot = Floor(바닥 4칸) · Wall(벽 2칸) · 값은 AI 잠정 · 🔸 코드로 그린 도트
+Id,NameKo,NameEn,Cost,Slot,Order
+1,화분,Plant,80,Floor,1
+2,액자,Picture,90,Wall,2
+3,스탠드,Lamp,100,Floor,3
+4,의자,Chair,120,Floor,4
+5,시계,Clock,150,Wall,5
+6,러그,Rug,150,Floor,6
+7,창문,Window,200,Wall,7
+8,책상,Desk,250,Floor,8
+9,책장,Shelf,300,Floor,9
+10,침대,Bed,400,Floor,10

@@ -1,0 +1,33 @@
+# 정본 = 굴 채광 · 곡괭이 레벨 · 광차 산더미 기획서 1-2-1-D (AI 잠정 2026-10-24). 소수는 만분율.
+Key,Value
+SwingSpeedPerMin,40
+PickPowerBase,1
+PickPowerPerLevel,0
+ExpBase,6
+ExpPow,15000
+PileMaxCount,300
+PileMaxPx,200
+SettleFxMinMs,500
+SettleFxMaxMs,1200
+# 곡괭이질 트리 1-1-6 — «찍을 수 있음» 점(1 켬 · 0 끔 · Q36 AI 잠정)
+ShowBuyableMark,1
+# 꺼 둔 동안 1-2-1-D — 꺼 둔 시간의 50%(만분율) · 최대 8시간 · 60초 미만은 셈 안 함(Q11 AI 잠정 = 옛 프로토 값)
+OfflineRateMyriad,5000
+OfflineMaxSec,28800
+OfflineMinSec,60
+# 웹 빌드 1-3-1-C(D41 · 사용자 2026-10-29) — 웹 첫 방문은 첫 실행을 넘기면 이만큼(초)을 켜 둔 것처럼 먼저 돌린다 · PC 판은 안 쓴다 · 0 = 끔(🔸 1800 = AI 잠정)
+WebHeadStartSec,1800
+# 🧪 후보 C-1 시험 스위치(광차 산더미 1-3-1-B-2) — 0 = 끔(기본). 1000 이면 탑 단계마다 정산 +10%(최대 +50%) · Q31 은 사람이 정한다
+SettleBonusStages,5
+SettleBonusPerStageMyriad,0
+# 첫 정산 안내(광차 산더미 1-3-1-D · C-3 · 🔸 AI 잠정 2026-10-28) — 한 번도 정산 안 했고 광석이 이만큼이면 탑 위에 «눌러서 정산!» · 0 = 끔
+FirstSettleHintMinOre,20
+# 담금질(곡괭이질 트리 1-3-1-D · D32) — 트리 12 를 다 사면 열린다. 값 = 500 × 1.6^Lv · 단계마다 TemperStat +2%(AI 잠정)
+# TemperStat: 1 = 힘(PickPower) · 2 = 속도(SwingSpeed) · 3 = 값(OreValue) · 4 = 경험(ExpGain)
+TemperBaseCost,500
+TemperCostGrowthMyriad,16000
+TemperStat,1
+TemperValuePerLevel,200
+# 방 꾸미기 1-2-1-D(D34 · 2026-10-27) — 두 번째 방 값 · 방마다 ×1.8(AI 잠정 · 담금질과 같은 모양)
+RoomBaseCost,1000
+RoomCostGrowthMyriad,18000

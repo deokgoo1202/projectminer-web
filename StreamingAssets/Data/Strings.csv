@@ -1,0 +1,70 @@
+# 정본 = Studio/projects/ProjectMiner/docs/system/첫 실행(FirstRun)/system.md 1-2-1-B (2026-10-25)
+# Key = UI_{SYSTEM}_{종류}_{이름} · \n = 줄 나눔 · {0} = 자리 채움 · 🔴 쉼표 금지(CSV) — «·» 를 쓴다 · MaxPx = 줄마다 들어갈 폭(논리 칸 · 0 = 재지 않음)
+# 영어는 AI 번역 — 출시 전 검수(옛 프로토와 같은 처지)
+Key,ko,en,MaxPx
+UI_TREE_TITLE,곡괭이질,Mining,100
+UI_TREE_MSG_BOUGHT,익혔다!,Learned!,100
+UI_TREE_MSG_NEEDLEVEL,Lv{0} 필요,Need Lv{0},100
+UI_TREE_MSG_NEEDPREV,윗칸 먼저,Unlock above,100
+UI_TREE_MSG_NOORE,◆ 모자람,Need more ◆,100
+UI_TREE_MSG_TEMPERED,담금질!,Tempered!,100
+UI_TREE_MSG_TREEFIRST,트리 먼저,Finish tree,100
+UI_TREE_LABEL_DONE,완료,Done,54
+UI_TREE_LABEL_COMPLETE,트리 완료!,Tree complete!,150
+UI_TREE_STAT_POWER,힘,Pow,28
+UI_TREE_STAT_SPEED,속도,Spd,28
+UI_TREE_STAT_VALUE,값,Val,28
+UI_TREE_STAT_EXP,경험,Exp,28
+UI_TREE_TEMPER_NAME,담금질 Lv{0},Tempering Lv{0},160
+UI_TREE_TEMPER_EACH,{0} +{1}% 씩,{0} +{1}% each,160
+UI_TREE_TEMPER_NOW,지금 +{0}%(합 +{1}%),Now +{0}% (sum +{1}%),160
+UI_TREE_TEMPER_NEXT,다음 ◆{0},Next ◆{0},160
+UI_TREE_TEMPER_HINT,누르면 한 단계,Click: +1 level,160
+UI_NOTICE_OFFLINE,꺼 둔 동안\n광석 +{0},While away\nOre +{0},120
+UI_NOTICE_SLEEP,잠든 동안\n광석 +{0},While asleep\nOre +{0},120
+UI_NOTICE_HEADSTART,먼저 파 뒀다\n광석 +{0},Dug ahead\nOre +{0},120
+UI_NOTICE_NEWZONE,새 땅!\n{0},New ground!\n{0},120
+UI_FIRST_TITLE_NAME,ProjectMiner(가칭),ProjectMiner (WIP),160
+UI_FIRST_TITLE_START,누르면 시작,Click to start,160
+UI_FIRST_LANG_ASK,언어 · Language,언어 · Language,160
+UI_FIRST_LANG_KO,한국어,한국어,70
+UI_FIRST_LANG_EN,English,English,70
+UI_FIRST_GUIDE_TITLE,이용 안내,How it works,160
+UI_FIRST_GUIDE_1,늘 화면 맨 위에 떠 있어요,Always on top,148
+UI_FIRST_GUIDE_2,빈 곳은 클릭이 지나가요,Gaps click through,148
+UI_FIRST_GUIDE_3,광차를 누르면 정산,Click cart to sell,148
+UI_FIRST_GUIDE_4,오른쪽 클릭 뒤 X 로 끄기,Quit: right-click + X,148
+UI_FIRST_GUIDE_5,저장은 이 PC 에만,Saved on this PC only,148
+UI_FIRST_GUIDE_WEB_1,웹 체험판이에요,This is the web demo,148
+UI_FIRST_GUIDE_WEB_2,PC 판은 바탕화면에 떠요,PC version: desktop,148
+UI_FIRST_GUIDE_WEB_3,광차를 누르면 정산,Click cart to sell,148
+UI_FIRST_GUIDE_WEB_4,탭을 닫아도 이어져요,Resumes after closing,148
+UI_FIRST_GUIDE_WEB_5,저장은 이 브라우저에만,Saved in this browser,148
+UI_FIRST_GUIDE_OK,알겠어요,Got it,70
+UI_WIN_BTN_LANG,EN,한,18
+UI_TAB_OUTFIT,옷장,Wardrobe,124
+UI_TAB_ROOM,구역,Area,124
+UI_OUTFIT_WEAR,입기,Wear,96
+UI_OUTFIT_MSG_BOUGHT,새 꾸미기!,New look!,124
+UI_OUTFIT_PREVIEW,입어 보기,Preview,54
+UI_ROOM_PAGE,{0}/{1},{0}/{1},54
+UI_ROOM_MORE,+구역 ◆{0},+Area ◆{0},90
+UI_ROOM_MSG_FULL,여기는 꽉 찼다,Area is full,124
+UI_ROOM_MSG_PLACED,놓았다!,Placed!,124
+UI_ROOM_MSG_NEWROOM,새 구역!,New area!,124
+UI_AREA_PLACE,놓기,Put,26
+UI_AREA_FLIP,뒤집기,Flip,38
+UI_AREA_STORE,넣기,Bag,38
+UI_AREA_MSG_BOUGHT,가방에 넣었다!,In your bag!,124
+UI_SLOT_1,헤어,Hair,50
+UI_SLOT_2,모자,Hat,50
+UI_SLOT_3,상의,Top,50
+UI_SLOT_4,하의,Bottom,50
+UI_SLOT_5,신발,Shoes,50
+UI_SLOT_6,눈,Eyes,50
+UI_SLOT_7,장식,Acc.,50
+UI_SLOT_8,곡괭이,Pickaxe,50
+UI_SLOT_9,광차,Cart,50
+UI_SLOT_10,탑,Tower,50
+# 광차 산더미 1-3-1-D 첫 정산 안내(C-3 · 2026-10-28) — 탑 위 작은 판
+UI_HINT_SETTLE,눌러서 정산!,Click to sell!,90

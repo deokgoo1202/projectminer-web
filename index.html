@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProjectMiner(가칭) — 웹 체험판</title>
+    <link rel="icon" type="image/png" href="TemplateData/favicon.png">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <!--
+      웹 빌드 1-3-1-A — «가짜 바탕화면». 브라우저 탭은 바탕화면 위에 투명하게 뜰 수 없어서
+      페이지가 벽지 · 작업 표시줄 · 일하는 창을 그리고, 게임은 작업 표시줄 바로 위 왼쪽에 선다(데스크톱 처음 자리와 같다).
+      🔴 벽지 색(--wall)은 게임이 하늘을 칠하는 색(RunPlatform.WallpaperRgb = #3A6EA5)과 같아야 캔버스 테두리가 안 보인다.
+    -->
+    <div id="note">
+      <b>ProjectMiner(가칭)</b> · 웹 체험판<br>
+      광차나 탑을 눌러 정산 · ◆ 판을 누르면 곡괭이질<br>
+      <small>PC 판은 이 그림처럼 <i>실제 바탕화면</i> 위에 떠 있어요</small>
+    </div>
+
+    <div id="work" aria-hidden="true">
+      <div class="title"><span>할 일.txt — 메모장</span><span class="btns">─ ☐ ✕</span></div>
+      <div class="body">
+        오늘 할 일<br>
+        - 주간 보고서 마무리<br>
+        - 회의록 정리 (14:00)<br>
+        - 메일 답장 3통<br>
+        <br>
+        <span class="muted">← 일하는 동안 굴 띠에서 광부가 판다.<br>&nbsp;&nbsp;&nbsp;흘끗 봤을 때 탑이 솟아 있으면 눌러 깬다.</span>
+      </div>
+    </div>
+
+    <div id="unity-container">
+      <canvas id="unity-canvas" width=384 height=544 tabindex="-1"></canvas>
+      <div id="status">불러오는 중…</div>
+    </div>
+
+    <div id="taskbar">
+      <div class="start">▦</div>
+      <div class="app"></div>
+      <div class="app"></div>
+      <div class="app active"><img src="TemplateData/favicon.png" alt=""></div>
+      <div class="clock" id="clock"></div>
+    </div>
+
+    <script>
+      var canvas = document.querySelector("#unity-canvas");
+      var statusEl = document.getElementById("status");
+      var loaded = false;
+      function setStatus(msg, err) { statusEl.textContent = msg; statusEl.className = err ? "err" : ""; statusEl.style.display = msg ? "block" : "none"; }
+      function fail(msg) { if (!loaded) setStatus("못 켰다 — " + String(msg).split("\n")[0].slice(0, 200), true); }
+      window.addEventListener("error", function (e) { fail(e.message || "오류"); });
+      window.addEventListener("unhandledrejection", function (e) { fail(e.reason && (e.reason.message || e.reason)); });
+
+      // 브라우저 언어가 한국어가 아니면 페이지 글을 영어로(게임 안 글은 첫 실행에서 고른다 — 첫 실행 · 웹 빌드)
+      if (!/^ko/i.test(navigator.language || "")) {
+        document.documentElement.lang = "en";
+        document.title = "ProjectMiner (WIP) — web demo";
+        document.getElementById("note").innerHTML = "<b>ProjectMiner (WIP)</b> · web demo<br>Click the cart or tower to sell · click ◆ for upgrades<br><small>The PC build floats on your <i>real desktop</i>, like this</small>";
+        document.querySelector("#work .title span").textContent = "todo.txt — Notepad";
+        document.querySelector("#work .body").innerHTML = "Today<br>- Finish weekly report<br>- Meeting notes (14:00)<br>- Reply to 3 emails<br><br><span class=\"muted\">← The miner digs while you work.<br>&nbsp;&nbsp;&nbsp;Glance over; if the tower is tall, click to sell it.</span>";
+        statusEl.textContent = "Loading…";
+      }
+      // 받는 동안 WebGL 캔버스는 검게 지워진다 — 다 켜질 때까지 숨겨 벽지가 보이게(바탕화면 위에 검은 사각형이 뜨지 않게)
+      canvas.style.visibility = "hidden";
+      // 브라우저 오른쪽 클릭 메뉴를 캔버스에서 끈다(웹 빌드 1-3-1-A)
+      canvas.addEventListener("contextmenu", function (e) { e.preventDefault(); });
+
+      // 시계 — 바탕화면 흉내
+      function tick() {
+        var d = new Date();
+        var loc = /^ko/i.test(navigator.language || "") ? "ko-KR" : undefined;   // 영어 페이지는 브라우저 형식
+        document.getElementById("clock").innerHTML = d.toLocaleTimeString(loc, { hour: "2-digit", minute: "2-digit" }) + "<br>" + d.toLocaleDateString(loc);
+      }
+      tick(); setInterval(tick, 10000);
+
+      // 캔버스 = 도트 192×272 × 2(CSS px). 화면이 작으면 그때만 줄인다(도트는 image-rendering 으로 각지게).
+      var W = 384, H = 544, BAR = 48;
+      function fit() {
+        var k = Math.min(1, (window.innerHeight - BAR) / H, window.innerWidth / W);
+        canvas.style.width = (W * k) + "px";
+        canvas.style.height = (H * k) + "px";
+      }
+      fit();
+      window.addEventListener("resize", fit);
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/ae3fe9eb1904a0527c3a5fadf9703dbb.loader.js";
+      var config = {
+        arguments: [],
+        dataUrl: buildUrl + "/0fc40bb952b64bad1bf9e477b77a628c.data.unityweb",
+        frameworkUrl: buildUrl + "/3bdde976a7fd40c2bc8bd12975d7b914.framework.js.unityweb",
+        codeUrl: buildUrl + "/c7296a86102262ae69bd29409f302c0b.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "GameOriented",
+        productName: "ProjectMiner",
+        productVersion: "1.0",
+        // 도트를 칸 그대로 — 브라우저 배율(2배 화면)에 맞춰 키우면 192×272 가 흐려진다(웹 빌드 1-2-1-D)
+        devicePixelRatio: 1,
+        showBanner: function (msg, type) { if (type === "error") fail(msg); else console.warn(msg); },
+      };
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = function () {
+        createUnityInstance(canvas, config, function (progress) {
+          var pct = Math.floor(progress * 100);
+          var ko = /^ko/i.test(navigator.language || "");
+          if (!statusEl.className) setStatus(pct >= 100 ? (ko ? "준비하는 중…" : "Starting…") : (ko ? "불러오는 중 " : "Loading ") + pct + "%");
+        }).then(function (instance) {
+          // 🔄 2026-10-27 리뷰 — 여기서는 아직 안 보인다. 게임이 표 · 글자를 HTTP 로 더 받고 첫 그림을 올린 뒤
+          //   MinerPage.jslib 의 minerReady 로 알린다. 실패하면 minerFail 이 글을 띄운다(전엔 빈 캔버스 · 글 없음).
+          unityInstance = instance;
+          setTimeout(function () {
+            if (!loaded && !statusEl.className) setStatus(KO ? "멈춘 것 같다 — 새로 고침해 줘" : "Seems stuck — please reload", true);
+          }, 60000);
+        }).catch(function (message) { fail(message); });
+      };
+      var unityInstance = null;
+      var KO = /^ko/i.test(navigator.language || "");
+      window.minerReady = function () {
+        loaded = true; setStatus("");
+        canvas.style.visibility = "visible";
+      };
+      window.minerFail = function (msg) {
+        setStatus((KO ? "못 켰다 — " : "Failed to start — ") + String(msg).split("\n")[0].slice(0, 200), true);
+      };
+      // 탭이 숨거나 닫힐 때 저장 — Ctrl+W 처럼 창이 흐려지지 않고 닫히는 탭은 OnApplicationFocus 가 안 왔다(2026-10-27 리뷰)
+      function saveNow() { if (unityInstance && loaded) { try { unityInstance.SendMessage("Miner", "SaveFromPage"); } catch (e) {} } }
+      document.addEventListener("visibilitychange", function () { if (document.visibilityState === "hidden") saveNow(); });
+      window.addEventListener("pagehide", saveNow);
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>
