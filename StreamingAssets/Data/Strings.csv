@@ -1,0 +1,308 @@
+# 정본 = Studio/projects/ProjectMiner/docs/system/첫 실행(FirstRun)/system.md 1-2-1-B (2026-10-25)
+# Key = UI_{SYSTEM}_{종류}_{이름} · \n = 줄 나눔 · {0} = 자리 채움 · \c = 쉼표 · 🔴 맨 쉼표 금지(CSV) — «·» 를 쓴다 · MaxPx = 줄마다 들어갈 폭(논리 칸 · 0 = 재지 않음)
+# 영어는 AI 번역 — 출시 전 검수(옛 프로토와 같은 처지)
+Key,ko,en,MaxPx
+UI_TREE_TITLE,곡괭이질,Mining,100
+UI_TREE_MSG_BOUGHT,익혔다!,Learned!,100
+UI_TREE_MSG_NEEDPREV,윗칸 먼저,Unlock above,100
+UI_TREE_MSG_NOORE,◆ 모자람,Need more ◆,100
+UI_TREE_LABEL_DONE,완료,Done,54
+UI_NOTICE_OFFLINE,꺼 둔 동안\n광석 +{0},While away\nOre +{0},120
+UI_NOTICE_SLEEP,잠든 동안\n광석 +{0},While asleep\nOre +{0},120
+UI_NOTICE_HEADSTART,먼저 파 뒀다\n광석 +{0},Dug ahead\nOre +{0},120
+UI_NOTICE_NEWZONE,새 땅! 새 이야기!\n{0},New land & story!\n{0},120
+UI_FIRST_TITLE_NAME,광부 청이,Chungi\c the Miner,160
+UI_FIRST_TITLE_START,누르면 시작,Click to start,160
+UI_FIRST_LANG_ASK,언어 · Language,언어 · Language,160
+UI_FIRST_LANG_KO,한국어,한국어,70
+UI_FIRST_LANG_EN,English,English,70
+UI_FIRST_GUIDE_TITLE,이용 안내,How it works,160
+UI_FIRST_GUIDE_1,늘 화면 맨 위에 떠 있어요,Always on top,148
+UI_FIRST_GUIDE_2,빈 곳은 클릭이 지나가요,Clicks pass through,148
+UI_FIRST_GUIDE_3,광차를 누르면 정산,Click cart to sell,148
+UI_FIRST_GUIDE_4,오른쪽 클릭 뒤 X 로 끄기,Quit: right-click + X,148
+UI_FIRST_GUIDE_5,저장은 이 PC 에만,Saved on this PC only,148
+UI_FIRST_GUIDE_WEB_1,웹 체험판이에요,This is the web demo,148
+UI_FIRST_GUIDE_WEB_2,PC 판은 바탕화면에 떠요,PC: on your desktop,148
+UI_FIRST_GUIDE_WEB_3,광차를 누르면 정산,Click cart to sell,148
+UI_FIRST_GUIDE_WEB_4,탭을 닫아도 이어져요,Resumes after closing,148
+UI_FIRST_GUIDE_WEB_5,저장은 이 브라우저에만,Saved in this browser,148
+UI_FIRST_GUIDE_OK,알겠어요,Got it,70
+UI_WIN_BTN_LANG,EN,한,18
+UI_TAB_OUTFIT,옷장,Wardrobe,124
+UI_TAB_ROOM,구역,Area,124
+UI_TAB_SETTINGS,설정,Settings,124
+UI_SETTING_WALL,깨는 벽,Wall to break,100
+UI_SETTING_WALL_SCREEN,내 화면,My screen,76
+UI_SETTING_WALL_ROCK,바위,Rock,76
+UI_SETTING_WALL_HELP_1,이 창 뒤 화면을 뭉개 써요,Uses the screen behind me,176
+UI_SETTING_WALL_HELP_2,저장 · 전송 안 해요,Nothing is saved or sent,176
+UI_SETTING_WALL_HELP_WEB_1,웹은 가짜 바탕화면을 깨요,Web breaks a fake desktop,176
+UI_SETTING_WALL_HELP_WEB_2,PC 판은 내 화면을 깨요,PC breaks your real one,176
+UI_SETTING_WALK,채광,Mining,40
+UI_SETTING_WALK_GO,이동하면서 채광하기,Walk and mine,130
+UI_SETTING_WALK_STAY,제자리에서 채광하기,Mine in place,130
+UI_SETTING_SOUND,소리,Sound,100
+UI_SETTING_ON,켬,On,76
+UI_SETTING_OFF,끔,Off,76
+UI_SETTING_LANG,언어,Language,100
+UI_SETTING_LANG_VALUE,한국어,English,76
+UI_SCREENWALL_NOTICE,이 창 뒤 화면을 벽으로 써요\n저장 · 전송 없음 · 설정에서 끔,Using the screen behind me\nNot saved · off in Settings,190
+UI_SCREENWALL_NOTICE_WEB,웹은 가짜 바탕화면을 깨요\n바위로 바꾸기는 설정에서,Web breaks a fake desktop\nRock wall in Settings,190
+UI_OUTFIT_WEAR,입기,Wear,96
+UI_OUTFIT_WORN_MARK,E,E,96
+UI_OUTFIT_MSG_BOUGHT,새 꾸미기!,New look!,124
+UI_OUTFIT_PREVIEW,입어 보기,Preview,54
+UI_ROOM_PAGE,{0}/{1},{0}/{1},54
+UI_ROOM_MORE,+구역 ◆{0},+Area ◆{0},90
+UI_ROOM_MSG_FULL,여기는 꽉 찼다,Area is full,124
+UI_ROOM_MSG_PLACED,놓았다!,Placed!,124
+UI_ROOM_MSG_NEWROOM,새 구역!,New area!,124
+UI_AREA_PLACE,놓기,Put,26
+UI_AREA_FLIP,뒤집기,Flip,38
+UI_AREA_STORE,넣기,Stow,38
+UI_AREA_MSG_BOUGHT,가방에 넣었다!,In your bag!,124
+UI_SLOT_1,머리 색,Hair\nColor,50
+UI_SLOT_2,모자,Hat,50
+UI_SLOT_3,상의,Top,50
+UI_SLOT_4,하의,Bottom,50
+UI_SLOT_5,신발,Shoes,50
+UI_SLOT_6,눈,Eyes,50
+UI_SLOT_7,장식,Acc.,50
+UI_SLOT_8,도구,Tool,50
+UI_SLOT_9,광차,Cart,50
+UI_SLOT_10,탑,Tower,50
+UI_SLOT_11,머리\n스타일,Hair\nStyle,50
+# 광차 산더미 1-3-1-D 첫 정산 안내(C-3 · 2026-10-28) — 탑 위 작은 판
+UI_HINT_SETTLE,눌러서 정산!,Click to sell!,90
+UI_TAB_COLLECTION,컬렉션,Collection,100
+UI_COLLECTION_DONE,컬렉션 달성!,Set complete!,100
+UI_COLLECTION_REWARD,{0} +{1}%,{0} +{1}%,160
+UI_COLLECTION_OWNED,가짐,Owned,60
+UI_COLLECTION_HINT,다 모으면 이야기가 열린다,Collect all for a story,178
+UI_COLLECTION_BACK,뒤로,Back,100
+UI_COLLECTION_1,메이드복,Maid Outfit,120
+UI_COLLECTION_2,교복,School Uniform,120
+UI_COLLECTION_3,한복,Hanbok,120
+UI_COLLECTION_4,단체복,Work Uniform,120
+UI_STORY_1_1,사장님\c 이 옷은 뭐예요?,Boss\c what is this outfit?,178
+UI_STORY_1_2,광산에 메이드복이라니…,A maid dress in a mine...,178
+UI_STORY_1_3,아\c 청소도 하라는,Oh\c so I clean too\c,178
+UI_STORY_1_4,뜻이군요.,is that it?,178
+UI_STORY_1_5,수당은 없는 거죠?,No extra pay\c right?,178
+UI_STORY_1_6,네\c 알아요. 사장님이니까.,I know. You're the boss.,178
+UI_STORY_1_7,그래도 튼튼해서 좋아요.,Still\c it is sturdy.,178
+UI_STORY_1_8,아버지께 자랑해야지!,I'll show my dad!,178
+UI_STORY_2_1,아버지는 눈이 어두우세요.,My dad's eyes are weak.,178
+UI_STORY_2_2,편지는 제가 읽어 드려요.,I read his letters to him.,178
+UI_STORY_2_3,그래서 글자 공부도,So I never skip,178
+UI_STORY_2_4,게을리 안 해요.,my reading practice.,178
+UI_STORY_2_5,그런데 사장님\c,By the way\c boss\c,178
+UI_STORY_2_6,계약서 맨 밑 작은 글씨요.,that tiny contract print.,178
+UI_STORY_2_7,야근 수당 없음이라니…,"No overtime pay.",178
+UI_STORY_2_8,다 읽었거든요?,Yes\c I read that.,178
+UI_STORY_3_1,한복을 입으니,This hanbok makes me,178
+UI_STORY_3_2,아버지 생각이 나요.,think of my dad.,178
+UI_STORY_3_3,눈을 고치려면,To heal his eyes it takes,178
+UI_STORY_3_4,공양미 삼백 석이래요.,300 sacks of temple rice.,178
+UI_STORY_3_5,사장님\c 제 월급으로,Boss\c on my pay\c,178
+UI_STORY_3_6,몇 년이나 걸릴까요?,how many years is that?,178
+UI_STORY_3_7,…왜 계산기를,...Why are you hiding,178
+UI_STORY_3_8,등 뒤로 숨기세요?,the calculator?,178
+UI_STORY_4_1,단체복이 나왔어요!,Team uniforms are here!,178
+UI_STORY_4_2,그런데 단체라기엔,But for a team...,178
+UI_STORY_4_3,직원이 저 하나인데요?,I'm the only employee.,178
+UI_STORY_4_4,사장님 마음은 알겠어요.,I get it\c boss.,178
+UI_STORY_4_5,오늘 회식이라면서요.,Team dinner tonight\c huh.,178
+UI_STORY_4_6,광차 위에서 컵라면…,Cup noodles on a cart...,178
+UI_STORY_4_7,맛은 있어요.,It does taste good.,178
+UI_STORY_4_8,다음엔 고기 사 주세요!,Buy me meat next time!,178
+UI_COLLECTION_STAT_PickPower,곡괭이 공격력,Pickaxe Attack,120
+UI_COLLECTION_STAT_SwingSpeed,곡괭이 속도,Swing Speed,120
+UI_COLLECTION_STAT_OreValue,광석 값,Ore Value,120
+UI_COLLECTION_STAT_CritChance,치명타 확률,Crit Chance,120
+UI_SETTING_MARK,깨진 자국,Cracks,70
+UI_SETTING_MARK_BRIEF,잠깐 보이기,Fade out,100
+UI_SETTING_MARK_KEEP,흐림 남기기,Leave blur,100
+UI_SETTING_MARK_NONE,없음,None,100
+UI_BOOK_COLLECTION,컬렉션,Outfits,80
+UI_BOOK_STORY,이야기,Stories,80
+UI_STORY_LOCKED,???,???,60
+UI_ZSTORY_1_TITLE,첫 출근,First Day,80
+UI_ZSTORY_1_1,사장님\c 오늘부터 일해요!,Boss\c I start today!,178
+UI_ZSTORY_1_2,청이라고 해요.,I'm Chungi.,178
+UI_ZSTORY_1_3,곡괭이가 좀 낡았네요?,This pickaxe looks old?,178
+UI_ZSTORY_1_4,아\c 제일 좋은 거라고요.,Oh. It's your best one.,178
+UI_ZSTORY_1_5,아버지 눈을 고치려면,To heal my dad's eyes,178
+UI_ZSTORY_1_6,돈이 많이 필요하거든요.,I need a lot of money.,178
+UI_ZSTORY_1_7,열심히 팔게요.,I'll dig hard.,178
+UI_ZSTORY_1_8,월급날은 언제예요?,When's payday?,178
+UI_ZSTORY_2_TITLE,돌 속의 조개,Stone Shell,80
+UI_ZSTORY_2_1,사장님\c 돌에 조개가 있어요!,Boss\c a shell in the rock!,178
+UI_ZSTORY_2_2,옛날엔 바다였나 봐요.,This was a sea once.,178
+UI_ZSTORY_2_3,이건 얼마나 쳐 주세요?,How much is it worth?,178
+UI_ZSTORY_2_4,…돌값이라고요?,...Rock price?,178
+UI_ZSTORY_2_5,그럼 제가 가져갈게요.,Then I'll keep it.,178
+UI_ZSTORY_2_6,아버지는 손으로 만져 보면,My dad can feel it,178
+UI_ZSTORY_2_7,다 아시거든요.,with his hands.,178
+UI_ZSTORY_2_8,월급에서 빼지 마세요!,Don't dock my pay!,178
+UI_ZSTORY_3_TITLE,곡괭이의 날,Sharp Edge,80
+UI_ZSTORY_3_1,사장님\c 날이 다 나갔어요.,Boss\c the edge is gone.,178
+UI_ZSTORY_3_2,철은 단단하단 말이에요.,Iron is hard\c you know.,178
+UI_ZSTORY_3_3,새 곡괭이는요?,A new pickaxe?,178
+UI_ZSTORY_3_4,…직접 갈라고요?,...Sharpen it myself?,178
+UI_ZSTORY_3_5,네\c 갈았어요.,Fine. I sharpened it.,178
+UI_ZSTORY_3_6,어\c 좀 잘 드네요?,Oh\c it cuts well!,178
+UI_ZSTORY_3_7,제 실력이에요.,That's my skill.,178
+UI_ZSTORY_3_8,기술 수당도 있나요?,Is there skill pay?,178
+UI_ZSTORY_4_TITLE,아버지의 편지,Dad's Letter,80
+UI_ZSTORY_4_1,아버지께 편지가 왔어요.,A letter from my dad.,178
+UI_ZSTORY_4_2,옆집 아저씨가 써 주셨대요.,The neighbor wrote it.,178
+UI_ZSTORY_4_3,밥은 잘 먹느냐고요.,Am I eating well\c he asks.,178
+UI_ZSTORY_4_4,사장님은 좋은 분이냐고요.,Is my boss good to me?,178
+UI_ZSTORY_4_5,…뭐라고 답할까요?,...What should I say?,178
+UI_ZSTORY_4_6,네\c 좋은 분이라고 썼어요.,I wrote: yes.,178
+UI_ZSTORY_4_7,거짓말은 나쁜 건데.,Lying is bad\c though.,178
+UI_ZSTORY_4_8,이건 사장님 탓이에요.,That's on you\c boss.,178
+UI_ZSTORY_5_TITLE,빛나는 굴,Shiny Cave,80
+UI_ZSTORY_5_1,사장님\c 여기 좀 보세요!,Boss\c look at this!,178
+UI_ZSTORY_5_2,온통 반짝반짝해요.,It's all sparkling.,178
+UI_ZSTORY_5_3,아버지께 보여 드리고 싶다.,I wish Dad could see.,178
+UI_ZSTORY_5_4,…어떻게 말로 하지.,...How do I describe it?,178
+UI_ZSTORY_5_5,차가운 별 같다고 할까요.,Like cold stars\c maybe.,178
+UI_ZSTORY_5_6,그런데 사장님\c,But boss\c,178
+UI_ZSTORY_5_7,이거 비싼 거죠?,these are pricey\c right?,178
+UI_ZSTORY_5_8,눈빛이 달라지셨어요.,Your eyes just changed.,178
+UI_ZSTORY_6_TITLE,깜깜한 벽,Black Wall,80
+UI_ZSTORY_6_1,사장님\c 여기 너무 어두워요.,Boss\c it's so dark here.,178
+UI_ZSTORY_6_2,등불 하나 더 주세요.,One more lamp\c please.,178
+UI_ZSTORY_6_3,…기름값이요?,...Oil costs money?,178
+UI_ZSTORY_6_4,저기\c 벽에 제 얼굴이 비쳐요.,I can see my face in it.,178
+UI_ZSTORY_6_5,아버지는 늘 이렇게,Dad must see the world,178
+UI_ZSTORY_6_6,어두우신 걸까요.,this dark\c always.,178
+UI_ZSTORY_6_7,그럼 더 파야겠네요.,So I must dig more.,178
+UI_ZSTORY_6_8,등불은 꼭 주세요.,But do give me a lamp.,178
+UI_ZSTORY_7_TITLE,뜨거운 곳,Hot Place,80
+UI_ZSTORY_7_1,사장님\c 여기 정말 뜨거워요.,Boss\c it's really hot here.,178
+UI_ZSTORY_7_2,곡괭이도 뜨거워요.,Even the pickaxe is hot.,178
+UI_ZSTORY_7_3,위험 수당은요?,Hazard pay?,178
+UI_ZSTORY_7_4,…시원한 물이 수당이요?,...Cold water is the pay?,178
+UI_ZSTORY_7_5,네\c 마셨어요.,Fine\c I drank it.,178
+UI_ZSTORY_7_6,맛있네요.,It was good.,178
+UI_ZSTORY_7_7,아\c 이러면 안 되는데.,Oh\c this is how you win.,178
+UI_ZSTORY_7_8,다음엔 안 속아요!,Not fooled next time!,178
+UI_ZSTORY_8_TITLE,먹어도 돼요?,Edible?,80
+UI_ZSTORY_8_1,사장님\c 버섯이 빛나요.,Boss\c glowing mushrooms.,178
+UI_ZSTORY_8_2,점심값 아껴도 될까요?,Save some lunch money?,178
+UI_ZSTORY_8_3,아\c 사장님이 먼저 드신다고요?,Oh\c you'll try it first?,178
+UI_ZSTORY_8_4,…왜 저를 보세요?,...Why look at me?,178
+UI_ZSTORY_8_5,독 있는지는,If it's poisonous\c,178
+UI_ZSTORY_8_6,아버지가 냄새로 아세요.,Dad can smell it.,178
+UI_ZSTORY_8_7,편지로 여쭤볼게요.,I'll write and ask him.,178
+UI_ZSTORY_8_8,그때까지 점심 주세요.,Feed me until then.,178
+UI_ZSTORY_9_TITLE,겨울 작업복,Winter Gear,80
+UI_ZSTORY_9_1,사\c 사장님\c 추워요.,B-boss\c it is cold.,178
+UI_ZSTORY_9_2,용암 지나왔는데 왜 얼음이에요?,Why ice after lava?,178
+UI_ZSTORY_9_3,난방비요?,Heating costs?,178
+UI_ZSTORY_9_4,네\c 없는 줄 알았어요.,Yes\c I figured.,178
+UI_ZSTORY_9_5,곡괭이질을 빨리 하면,If I swing faster\c,178
+UI_ZSTORY_9_6,몸이 따뜻해진다고요?,I'll warm up\c you say?,178
+UI_ZSTORY_9_7,…속도가 오르긴 하네요.,...I am faster now.,178
+UI_ZSTORY_9_8,사장님 천재세요?,Boss\c are you a genius?,178
+UI_ZSTORY_10_TITLE,누가 판 굴,Who Dug?,80
+UI_ZSTORY_10_1,사장님\c 벽에 자국이 있어요.,Boss\c marks on the wall.,178
+UI_ZSTORY_10_2,곡괭이 자국이에요.,Pickaxe marks.,178
+UI_ZSTORY_10_3,옛날에도 누가 팠나 봐요.,Someone dug here once.,178
+UI_ZSTORY_10_4,그 사람도 월급이 짰을까요.,Was their pay low too?,178
+UI_ZSTORY_10_5,여기 글씨도 있어요.,There's writing\c too.,178
+UI_ZSTORY_10_6,"사장 나쁜 놈","Boss is a jerk.",178
+UI_ZSTORY_10_7,…천 년 전에도요?,...A thousand years ago?,178
+UI_ZSTORY_10_8,왠지 힘이 나네요.,That cheers me up.,178
+UI_ZSTORY_11_TITLE,이건 안 돼요,Fool's Gold,80
+UI_ZSTORY_11_1,사장님\c 금이에요\c 금!,Boss\c gold! Real gold!,178
+UI_ZSTORY_11_2,이제 월급 올려 주시겠네요?,A raise now\c right?,178
+UI_ZSTORY_11_3,…금값이 떨어졌다고요?,...Gold prices fell?,178
+UI_ZSTORY_11_4,방금 캤는데요?,I just dug it up!,178
+UI_ZSTORY_11_5,이걸로 공양미 얼마나 사요?,How much rice is this?,178
+UI_ZSTORY_11_6,사장님 계산기 주세요.,Hand me the calculator.,178
+UI_ZSTORY_11_7,제가 할게요.,I'll do the math.,178
+UI_ZSTORY_11_8,…많이 남았네요.,...Still a long way.,178
+UI_ZSTORY_12_TITLE,끝이 없네요,No End,80
+UI_ZSTORY_12_1,사장님\c 아직도 끝이 없어요.,Boss\c still no end.,178
+UI_ZSTORY_12_2,돌에 별이 박혀 있어요.,Stars in the stone.,178
+UI_ZSTORY_12_3,여기까지 왔네요\c 우리.,We came this far\c huh.,178
+UI_ZSTORY_12_4,…우리라고 했어요?,...Did I say "we"?,178
+UI_ZSTORY_12_5,취소예요. 월급이 먼저예요.,Scratch that. Pay first.,178
+UI_ZSTORY_12_6,아버지께 또 편지 써야지.,I'll write to Dad again.,178
+UI_ZSTORY_12_7,사장님은 좋은 분이라고요.,That my boss is good.,178
+UI_ZSTORY_12_8,이번엔 반만 거짓말이에요.,Only half a lie this time.,178
+UI_TREE_MSG_UPGRADED,강화!,Upgraded!,100
+UI_HINT_FULL,가득! 깨 줘요,Full! Smash it,120
+UI_WALL_NEEDORE,탑을 깨서 ◆ 를 모아요,Smash the pile for ◆,176
+UI_SETTING_DAMAGE,대미지 숫자,Damage text,100
+UI_TAB_UPGRADE,강화,Upgrade,86
+UI_UPGRADE_PICKAXE,곡괭이 +{0},Pickaxe +{0},140
+UI_UPGRADE_PICKAXE_STAT,공격력 {0} > {1},Attack {0} > {1},146
+UI_UPGRADE_CART,광차 +{0},Cart +{0},140
+UI_UPGRADE_CART_STAT,최대 광석 {0} > {1},Max ore {0} > {1},146
+UI_UPGRADE_STAMINA,청이 +{0},Chungi +{0},140
+UI_UPGRADE_STAMINA_STAT,최대 체력 {0} > {1},Stamina {0} > {1},146
+UI_TREE_STATS,분당 {0} · 치명 {1}% · {2}%,{0}/min · Crit {1}% · {2}%,182
+UI_COLLECTION_5,간호복,Nurse Uniform,178
+UI_COLLECTION_STAT_CritDamage,치명타 대미지,Crit Damage,120
+UI_STORY_5_1,사장님\c 구급상자 어디 있어요?,Boss\c where's the med kit?,178
+UI_STORY_5_2,반창고가 한 장이에요.,It holds one bandage.,178
+UI_STORY_5_3,이 옷 입으면 치료비 아낀대요?,This saves on doctors?,178
+UI_STORY_5_4,저 의사 아닌데요.,I'm not a doctor\c though.,178
+UI_STORY_5_5,아버지 눈도 제가 볼 수 있으면,If I could treat Dad's eyes,178
+UI_STORY_5_6,좋을 텐데요.,that would be nice.,178
+UI_STORY_5_7,반창고는 붙여 드릴게요.,I'll still bandage you.,178
+UI_STORY_5_8,제 월급에서 빼지는 마세요.,Not out of my pay\c though.,178
+UI_ZSTORY_13_TITLE,돌이 된 고래,Stone Whale,80
+UI_ZSTORY_13_1,사장님\c 벽이 갈비뼈예요.,Boss\c the wall is ribs.,178
+UI_ZSTORY_13_2,집채만 한 고래예요.,A whale big as a house.,178
+UI_ZSTORY_13_3,왜 땅속에 있을까요.,Why is it underground?,178
+UI_ZSTORY_13_4,…이거 뼈값도 쳐 주세요?,...Is bone worth anything?,178
+UI_ZSTORY_13_5,안 된다고요.,No? Figures.,178
+UI_ZSTORY_13_6,그럼 인사나 하고 갈게요.,I'll just say hello then.,178
+UI_ZSTORY_13_7,고래야\c 너도 일하다 왔니?,Whale\c were you working?,178
+UI_ZSTORY_13_8,월급은 받았니?,Did they pay you?,178
+UI_ZSTORY_14_TITLE,물소리,Water Below,80
+UI_ZSTORY_14_1,사장님\c 물소리가 나요.,Boss\c I hear water.,178
+UI_ZSTORY_14_2,시원하다\c 마셔도 돼요?,So cool! Can I drink it?,178
+UI_ZSTORY_14_3,수도세요?,A water bill?,178
+UI_ZSTORY_14_4,…땅속 강에도요?,...For a cave river?,178
+UI_ZSTORY_14_5,아버지 드리게 한 병 담을게요.,I'll bottle some for Dad.,178
+UI_ZSTORY_14_6,눈에 좋다는 물이 있대요.,Some water heals eyes.,178
+UI_ZSTORY_14_7,이건 아닐 수도 있지만.,Probably not this one.,178
+UI_ZSTORY_14_8,한 병 값은 빼지 마세요.,Don't charge me for it.,178
+UI_ZSTORY_15_TITLE,먼저 온 이들,Before Us,80
+UI_ZSTORY_15_1,사장님\c 땅속에 집이 있어요!,Boss\c houses underground!,178
+UI_ZSTORY_15_2,밥그릇도 있어요.,There are rice bowls too.,178
+UI_ZSTORY_15_3,다들 어디 가셨을까요.,Where did they all go?,178
+UI_ZSTORY_15_4,임금 체불은 아니겠죠?,Not unpaid wages\c I hope.,178
+UI_ZSTORY_15_5,문기둥에 키 잰 자국이 있어요.,Height marks on a post.,178
+UI_ZSTORY_15_6,여기서 아이도 컸나 봐요.,Kids grew up here\c too.,178
+UI_ZSTORY_15_7,…아버지 보고 싶네요.,...I miss my dad.,178
+UI_ZSTORY_15_8,조퇴는 안 되죠? 네.,No leaving early? Right.,178
+UI_ZSTORY_16_TITLE,왜 바다가?,The Sea?,80
+UI_ZSTORY_16_1,사장님\c 이건 돌이 아니에요.,Boss\c this isn't rock.,178
+UI_ZSTORY_16_2,산호예요\c 바다에 있는 거요.,It's coral\c from the sea.,178
+UI_ZSTORY_16_3,우리 산을 판 거 아니었어요?,Aren't we in a mountain?,178
+UI_ZSTORY_16_4,왜 바다가 나와요?,Why is there sea here?,178
+UI_ZSTORY_16_5,소금 냄새도 나요.,It smells of salt\c too.,178
+UI_ZSTORY_16_6,뱃사람 노래도 들려요.,I hear sailors singing.,178
+UI_ZSTORY_16_7,환청 수당이 있나요?,Any pay for hearing things?,178
+UI_ZSTORY_16_8,없을 줄 알았어요.,Thought not.,178
+# 🆕 2026-11-06 염색 뽑기(옷장 1-3-1-H · D125)
+UI_DYE_TITLE,염색,Dye,50
+UI_DYE_ORIGINAL,원래 색,Original,50
+UI_DYE_TIER_1,보통,Basic,50
+UI_DYE_TIER_2,드묾,Rare,50
+UI_DYE_TIER_3,특별,Special,50
+UI_DYE_COUNT,모은 색 {0}/{1},Colors {0}/{1},122
+UI_DYE_DRAW,염료 뽑기,Draw Dye,70
+UI_DYE_ODDS_LINE,{0} {1}%,{0} {1}%,122
+UI_DYE_REFUND,중복 ◆{0} 환급,Dupe: +◆{0},122
+UI_DYE_MSG_NEW,새 색! {0},New: {0},86
+UI_DYE_MSG_DUP,중복 +◆{0},Dupe +◆{0},86

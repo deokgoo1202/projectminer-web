@@ -1,0 +1,75 @@
+# 정본 = Studio/projects/ProjectMiner/docs/system/옷장(Wardrobe)/system.md 1-2-1-B (2026-10-27 · D36 · Q38)
+# 슬롯마다 기본(값 0) 하나 · 🔄 2026-11-03 세트 없음(옷은 층으로 따로 · D53) · Id = 슬롯 × 100 + n · Look = 색 램프 rrggbb;…(짙은 → 밝은) 또는 도장 이름(Accessory · Pile) · 비면 정본 그대로
+# 값 · 색은 AI 잠정 · 🔴 #000000 금지(창의 투명 색 키)
+Id,Slot,NameKo,NameEn,Cost,Order,Look
+101,Hair,갈색,Brown,0,0,
+102,Hair,검은색,Black,200,1,1e1a26;2c2838;403a52;5a5470
+103,Hair,금색,Gold,300,2,6a4a18;a07428;d8a838;f4d878
+104,Hair,분홍색,Pink,300,3,6a2840;a84870;e078a0;f8b0c8
+105,Hair,은색,Silver,400,4,4a4a5a;7a7a8c;b0b0c0;e0e0ec
+106,Hair,하늘색,Sky,400,5,284a78;3c74b0;64a0dc;a0d0f4
+201,Hat,노란 안전모,Yellow,0,0,
+202,Hat,빨간 안전모,Red,200,1,6a1818;a83028;e05040;f89080
+203,Hat,하늘 안전모,Sky,200,2,204870;3478b8;5ca8e8;a8d8f8
+204,Hat,흰 안전모,White,250,3,707078;a8a8b4;dcdce4;f4f4f8
+205,Hat,분홍 안전모,Pink,300,4,7a2850;b84878;e888b0;fcc8dc
+206,Hat,고양이 귀,Cat Ears,600,5,@cat
+207,Hat,맨머리,No Hat,100,6,@none
+208,Hat,토끼 귀,Bunny Ears,600,7,@bunny
+209,Hat,프릴 머리띠,Frill Band,600,8,@frill
+301,Top,흰 셔츠,White,0,0,
+302,Top,하늘 셔츠,Sky,150,1,94acd0;a8c4e0;bcd8f0;e4f0fc
+303,Top,분홍 셔츠,Pink,150,2,d098a8;dcaab8;f0bcc8;fce4ea
+304,Top,검정 셔츠,Black,200,3,18141e;2a2634;3e3a4c;5a566a
+305,Top,노랑 셔츠,Yellow,200,4,c8ac58;d8c068;f0dc80;fcf4c8
+306,Top,세일러 상의,Sailor,500,5,@sailor_top
+307,Top,메이드 상의,Maid Top,600,6,@maid_top
+308,Top,저고리,Jeogori,500,7,@hanbok_top
+309,Top,단체복 상의,Work Top,300,8,@coverall_top
+310,Top,간호복 상의,Nurse Top,600,9,@nurse_top
+401,Bottom,주황 멜빵,Orange,0,0,
+402,Bottom,하늘 멜빵,Sky,300,1,1a3a6a;2e6aa8;4a90cc;5fa8e0
+403,Bottom,남색 멜빵,Navy,400,2,181428;221e36;2e2844;3a3456
+404,Bottom,초록 멜빵,Green,400,3,1e4a24;2e7038;48a050;70c878
+405,Bottom,분홍 멜빵,Pink,500,4,6a1e40;a83868;e06898;f8a0c4
+406,Bottom,주름치마,Pleated,500,5,@pleat
+407,Bottom,메이드 치마,Maid Skirt,700,6,@maid_skirt
+408,Bottom,한복 치마,Chima,600,7,@hanbok_skirt
+409,Bottom,단체복 바지,Work Pants,300,8,@coverall_pants
+410,Bottom,간호복 치마,Nurse Skirt,700,9,@nurse_skirt
+501,Shoes,갈색 장화,Brown,0,0,
+502,Shoes,검은 장화,Black,150,1,16121c;2a2632;403c4c;5c5868
+503,Shoes,빨간 장화,Red,200,2,5a1414;902424;c84040;f07070
+504,Shoes,노란 장화,Yellow,200,3,6a5018;a88028;e0b840;f8e070
+505,Shoes,로퍼,Loafers,300,4,@loafer
+506,Shoes,메리제인,Mary Janes,400,5,@maryjane
+507,Shoes,고무신,Rubber Shoes,200,6,@gomusin
+508,Shoes,작업화,Work Boots,200,7,@work_boots
+601,Eyes,노란 눈,Amber,0,0,
+602,Eyes,파란 눈,Blue,250,1,1c3c78;3870c0;68a8f0;b0dcff
+603,Eyes,초록 눈,Green,250,2,1c5a30;308a48;58c070;a0f0b0
+604,Eyes,빨간 눈,Red,300,3,6a1414;a82828;e05050;ff9090
+605,Eyes,보라 눈,Violet,300,4,40205a;6c3c98;a070d0;d8b0f8
+701,Accessory,없음,None,0,0,
+702,Accessory,빨간 리본,Red Ribbon,300,1,ribbon_red
+703,Accessory,하늘 리본,Sky Ribbon,300,2,ribbon_blue
+704,Accessory,별 머리핀,Star Pin,400,3,pin_star
+705,Accessory,꽃 머리핀,Flower Pin,400,4,pin_flower
+801,Pickaxe,곡괭이,Pickaxe,0,0,w_pick
+805,Pickaxe,냉동 참치,Frozen Tuna,500,1,w_tuna
+806,Pickaxe,야구 방망이,Baseball Bat,400,2,w_bat
+807,Pickaxe,대파,Green Onion,300,3,w_leek
+808,Pickaxe,프라이팬,Frying Pan,400,4,w_pan
+809,Pickaxe,계란 프라이팬,Egg Pan,500,5,w_pan_egg
+901,Cart,쇠 광차,Iron,0,0,
+902,Cart,나무 광차,Wood,400,1,4a2c18;7a4c2c;a87444;d0a070
+903,Cart,금 광차,Gold,1000,2,6a5014;a8801c;e0b830;fce070
+904,Cart,분홍 광차,Pink,600,3,6a2848;a84878;e080a8;fcc0d8
+1001,Pile,효과 없음,No Effect,0,0,
+1002,Pile,반짝이,Sparkle,800,1,sparkle
+1003,Pile,금 테두리,Gold Rim,1200,2,gold_rim
+1201,HairStyle,단발,Bob,0,0,
+1203,HairStyle,똥머리,Bun,400,1,bun
+1204,HairStyle,포니테일,Ponytail,400,2,pony
+1205,HairStyle,긴 머리,Long Hair,500,3,long
+1206,HairStyle,땋은 머리,Braid,500,4,braids

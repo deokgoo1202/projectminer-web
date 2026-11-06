@@ -1,0 +1,8 @@
+# 정본 = Studio/projects/ProjectMiner/docs/system/컬렉션(Collection)/system.md 1-2-1-B (2026-11-04 · D84)
+# Items = 옷 Id(; 로 나눈다) · Stat = PickPower | SwingSpeed | OreValue | ExpGain · Value = 만분율(500 = +5%) · Lines = 이야기 줄 수(UI_STORY_{Id}_{n}) · Art = StreamingAssets/Art/story/{Art}.png · 값 AI 잠정
+Id,Order,Items,Stat,Value,Lines,Art
+1,1,209;307;407;506,OreValue,500,8,story_maid
+2,2,306;406;505,CritChance,500,8,story_school
+3,3,308;408;507,SwingSpeed,300,8,story_hanbok
+4,4,309;409;508,PickPower,500,8,story_coverall
+5,5,310;410,CritDamage,1000,8,story_nurse
