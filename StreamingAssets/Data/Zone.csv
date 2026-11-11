@@ -1,0 +1,19 @@
+# 정본 = Studio/projects/ProjectMiner/docs/system/굴 채광(TunnelMining)/system.md (AI 잠정 · 🔄 2026-11-04 D88 12구간 · D90 벽 = ◆ 발파)
+# 줄 순서 = 굴 순서. WallCost = 이 구간으로 들어가는 벽을 뚫는 ◆(첫 구간 0). Deco = 구간의 결(그림만 · None Fossil Vein Speckle Crystal Shard Lava).
+Id,NameKo,NameEn,LengthM,WallCost,Hardness,OreValue,RockColor,OreColor,Deco
+1,흙,Dirt,100,0,4,1,#7A5638,#D9A066,None
+2,석회암,Limestone,150,60,8,3,#9C968A,#E8E0C8,Fossil
+3,철광,Iron,200,300,14,6,#6E5A50,#C0503E,Vein
+4,화강암,Granite,250,900,22,10,#8A7E80,#E8C8D0,Speckle
+5,수정 동굴,Crystal Cave,300,2400,32,18,#4A4E78,#9AE8F8,Crystal
+6,흑요석,Obsidian,350,5500,45,30,#3A3046,#B07AE8,Shard
+7,심층 용암,Deep Lava,400,12000,60,50,#5A2A20,#FF8A30,Lava
+8,버섯 동굴,Mushroom Cave,450,24000,80,75,#2E5A50,#8CE89A,Crystal
+9,얼음 광맥,Ice Vein,500,45000,105,110,#6E94B0,#D8F4FF,Crystal
+10,고대 유적,Ancient Ruins,550,80000,135,160,#6A6248,#F0D060,Fossil
+11,황금 광맥,Gold Vein,600,140000,170,230,#5A4620,#FFD040,Vein
+12,별빛 심연,Starlit Abyss,650,240000,210,320,#1E1C3A,#C8B8FF,Shard
+13,뼈 고래,Whale Bones,700,400000,255,440,#4A4640,#E8E0D0,Fossil
+14,지하 강,Underground River,750,650000,305,600,#24506A,#8AD8F0,Crystal
+15,옛 갱도 마을,Old Mine Village,800,1050000,360,800,#5A4A3A,#D8A860,Vein
+16,붉은 산호,Red Coral,0,1650000,420,1050,#6A2A34,#FF8A8A,Crystal

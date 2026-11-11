@@ -1,0 +1,219 @@
+# 정본 = Studio/projects/ProjectMiner/docs/system/옷장(Wardrobe)/system.md 1-2-1-B (2026-10-27 · D36 · Q38)
+# 슬롯마다 기본(값 0) 하나 · 🔄 2026-11-03 세트 없음(옷은 층으로 따로 · D53) · Id = 슬롯 × 100 + n · Look = 색 램프 rrggbb;…(짙은 → 밝은) 또는 도장 이름(Accessory · Pile) · 비면 정본 그대로
+# 값 · 색은 AI 잠정 · 🔴 #000000 금지(창의 투명 색 키)
+Id,Slot,NameKo,NameEn,Cost,Order,Look
+101,Hair,갈색,Brown,0,0,
+102,Hair,검은색,Black,200,1,1e1a26;2c2838;403a52;5a5470
+103,Hair,금색,Gold,300,2,6a4a18;a07428;d8a838;f4d878
+104,Hair,분홍색,Pink,300,3,6a2840;a84870;e078a0;f8b0c8
+105,Hair,은색,Silver,400,4,4a4a5a;7a7a8c;b0b0c0;e0e0ec
+106,Hair,하늘색,Sky,400,5,284a78;3c74b0;64a0dc;a0d0f4
+107,Hair,보라색,Violet,400,6,3a2050;643a88;9a68c0;d0a8ec
+108,Hair,빨간색,Red,400,7,5a1418;922828;cc4440;f08070
+109,Hair,초록색,Green,400,8,1e4a30;2e7448;4ca868;8cd8a0
+110,Hair,주황색,Orange,400,9,6a3010;a85420;e08038;f8b070
+111,Hair,민트색,Mint,400,10,1e5a50;2e8a78;5cc0a8;a8ecdc
+112,Hair,남색,Navy,300,11,141c3a;223060;38488c;5a6cb4
+201,Hat,노란 안전모,Yellow,0,0,
+202,Hat,빨간 안전모,Red,200,1,6a1818;a83028;e05040;f89080
+203,Hat,하늘 안전모,Sky,200,2,204870;3478b8;5ca8e8;a8d8f8
+204,Hat,흰 안전모,White,250,3,707078;a8a8b4;dcdce4;f4f4f8
+205,Hat,분홍 안전모,Pink,300,4,7a2850;b84878;e888b0;fcc8dc
+206,Hat,고양이 귀,Cat Ears,600,5,@cat
+207,Hat,맨머리,No Hat,100,6,@none
+208,Hat,토끼 귀,Bunny Ears,600,7,@bunny
+209,Hat,프릴 머리띠,Frill Band,600,8,@frill
+210,Hat,밀짚모자,Straw Hat,400,9,@straw
+211,Hat,털모자,Beanie,400,10,@beanie
+212,Hat,헤드랜턴,Headlamp,500,11,@headlamp
+213,Hat,베레모,Beret,400,12,@beret
+214,Hat,꽃 화관,Flowers,500,13,@flower_crown
+215,Hat,광부 고글,Goggles,400,14,@goggles
+216,Hat,버섯 갓,Mushroom,500,15,@mushroom
+217,Hat,야구 모자,Cap,400,16,@cap
+218,Hat,곰 귀,Bear Ears,600,17,@bear
+219,Hat,산타 모자,Santa Hat,500,18,@santa
+220,Hat,작은 왕관,Crown,700,19,@crown
+221,Hat,마녀 모자,Witch Hat,600,20,@witch
+222,Hat,반다나,Bandana,400,21,@bandana
+223,Hat,갓,Gat,700,22,@gat
+224,Hat,요리사 모자,Chef Hat,500,23,@chef
+225,Hat,귀마개,Earmuffs,400,24,@earmuffs
+226,Hat,큰 리본,Big Bow,450,25,@big_bow
+227,Hat,해적 모자,Pirate Hat,600,26,@pirate
+228,Hat,해바라기,Sunflower,500,27,@sunflower
+229,Hat,천사 고리,Halo,600,28,@halo
+230,Hat,개구리 모자,Frog Hat,450,29,@frog
+231,Hat,종 모자,Cloche,450,30,@cloche
+232,Hat,판다 귀,Panda Ears,450,31,@panda_ears
+233,Hat,여우 귀,Fox Ears,450,32,@fox_ears
+234,Hat,딸기 모자,Berry Cap,450,33,@berry_cap
+235,Hat,꿀벌 머리띠,Bee Band,400,34,@bee_band
+236,Hat,수면 모자,Nightcap,450,35,@nightcap
+237,Hat,튤립 모자,Tulip Hat,450,36,@tulip
+301,Top,흰 셔츠,White,0,0,
+302,Top,하늘 셔츠,Sky,150,1,94acd0;a8c4e0;bcd8f0;e4f0fc
+303,Top,분홍 셔츠,Pink,150,2,d098a8;dcaab8;f0bcc8;fce4ea
+304,Top,검정 셔츠,Black,200,3,18141e;2a2634;3e3a4c;5a566a
+305,Top,노랑 셔츠,Yellow,200,4,c8ac58;d8c068;f0dc80;fcf4c8
+306,Top,세일러 상의,Sailor,500,5,@sailor_top
+307,Top,메이드 상의,Maid Top,600,6,@maid_top
+308,Top,저고리,Jeogori,500,7,@hanbok_top
+309,Top,단체복 상의,Work Top,300,8,@coverall_top
+310,Top,간호복 상의,Nurse Top,600,9,@nurse_top
+311,Top,줄무늬 티,Stripe Tee,400,10,@stripe_top
+312,Top,후드티,Hoodie,600,11,@hoodie_top
+313,Top,체크 남방,Flannel,500,12,@flannel_top
+314,Top,꽈배기 니트,Cable Knit,500,13,@knit_top
+315,Top,안전 조끼,Vest,400,14,@vest_top
+316,Top,꽃 블라우스,Floral,500,15,@floral_top
+317,Top,노란 우비,Raincoat,500,16,@raincoat_top
+318,Top,세로줄 셔츠,Pinstripe,400,17,@pinstripe_top
+319,Top,노르딕 니트,Nordic,600,18,@nordic_top
+320,Top,물방울 셔츠,Polka Top,450,19,@polka_top
+321,Top,알로하 셔츠,Aloha,500,20,@aloha_top
+322,Top,깅엄 셔츠,Gingham,450,21,@gingham_top
+323,Top,무지개 티,Rainbow,500,22,@rainbow_top
+324,Top,군복 셔츠,Camo,450,23,@camo_top
+325,Top,청재킷,Denim Jkt,500,24,@denim_jacket
+326,Top,하트 셔츠,Hearts,450,25,@heart_top
+327,Top,별무늬 티,Stars,450,26,@star_top
+328,Top,딸기 셔츠,Berries,450,27,@berry_top
+329,Top,레몬 셔츠,Lemons,450,28,@lemon_top
+330,Top,잠옷 상의,PJ Top,450,29,@pj_top
+331,Top,체리 셔츠,Cherry Top,450,30,@cherry_top
+401,Bottom,주황 멜빵,Orange,0,0,
+402,Bottom,하늘 멜빵,Sky,300,1,1a3a6a;2e6aa8;4a90cc;5fa8e0
+403,Bottom,남색 멜빵,Navy,400,2,181428;221e36;2e2844;3a3456
+404,Bottom,초록 멜빵,Green,400,3,1e4a24;2e7038;48a050;70c878
+405,Bottom,분홍 멜빵,Pink,500,4,6a1e40;a83868;e06898;f8a0c4
+406,Bottom,주름치마,Pleated,500,5,@pleat
+407,Bottom,메이드 치마,Maid Skirt,700,6,@maid_skirt
+408,Bottom,한복 치마,Chima,600,7,@hanbok_skirt
+409,Bottom,단체복 바지,Work Pants,300,8,@coverall_pants
+410,Bottom,간호복 치마,Nurse Skirt,700,9,@nurse_skirt
+411,Bottom,체크 치마,Plaid,500,10,@plaid_skirt
+412,Bottom,물방울 치마,Polka Dot,500,11,@dot_skirt
+413,Bottom,청바지,Jeans,400,12,@jeans
+414,Bottom,카고 바지,Cargo,400,13,@cargo_pants
+415,Bottom,데님 치마,Denim Skirt,500,14,@denim_skirt
+416,Bottom,히코리 바지,Hickory,400,15,@hickory_pants
+417,Bottom,꽃 긴치마,Floral Skirt,500,16,@flower_skirt
+418,Bottom,체크 바지,Plaid Pants,450,17,@plaid_pants
+419,Bottom,금박 치마,Gold Hem,700,18,@goldleaf_skirt
+420,Bottom,골덴 바지,Corduroy,450,19,@cord_pants
+421,Bottom,타탄 긴치마,Tartan,500,20,@tartan_skirt
+422,Bottom,군복 바지,Camo Pants,450,21,@camo_pants
+423,Bottom,무지개 치마,Rainbow,550,22,@rainbow_skirt
+424,Bottom,하트 치마,Hearts,450,23,@heart_skirt
+425,Bottom,별 치마,Stars,450,24,@star_skirt
+426,Bottom,레몬 치마,Lemons,450,25,@lemon_skirt
+427,Bottom,잠옷 바지,PJ Pants,450,26,@pj_pants
+428,Bottom,구름 치마,Clouds,450,27,@cloud_skirt
+501,Shoes,갈색 장화,Brown,0,0,
+502,Shoes,검은 장화,Black,150,1,16121c;2a2632;403c4c;5c5868
+503,Shoes,빨간 장화,Red,200,2,5a1414;902424;c84040;f07070
+504,Shoes,노란 장화,Yellow,200,3,6a5018;a88028;e0b840;f8e070
+505,Shoes,로퍼,Loafers,300,4,@loafer
+506,Shoes,메리제인,Mary Janes,400,5,@maryjane
+507,Shoes,고무신,Rubber,200,6,@gomusin
+508,Shoes,작업화,Work Boots,200,7,@work_boots
+509,Shoes,운동화,Sneakers,300,8,@sneakers
+510,Shoes,털부츠,Fur Boots,400,9,@fur_boots
+511,Shoes,줄무늬 양말,Stripes,300,10,@stripe_socks
+601,Eyes,노란 눈,Amber,0,0,
+602,Eyes,파란 눈,Blue,250,1,1c3c78;3870c0;68a8f0;b0dcff
+603,Eyes,초록 눈,Green,250,2,1c5a30;308a48;58c070;a0f0b0
+604,Eyes,빨간 눈,Red,300,3,6a1414;a82828;e05050;ff9090
+605,Eyes,보라 눈,Violet,300,4,40205a;6c3c98;a070d0;d8b0f8
+606,Eyes,분홍 눈,Pink,300,5,6a2048;a83c78;e070a8;ffb0d8
+607,Eyes,회색 눈,Gray,300,6,2c2c38;545462;8a8a9a;c8c8d4
+608,Eyes,하늘 눈,Cyan,300,7,1a5a6a;2a90a8;58c8e0;a8f0ff
+609,Eyes,갈색 눈,Brown,250,8,4a2c18;7a4c2c;b07848;e0b088
+610,Eyes,민트 눈,Mint,300,9,1a5a48;2a8a70;58c0a0;a8f0d8
+701,Accessory,없음,None,0,0,
+702,Accessory,빨간 리본,Red Ribbon,300,1,ribbon_red
+703,Accessory,하늘 리본,Sky Ribbon,300,2,ribbon_blue
+704,Accessory,별 머리핀,Star Pin,400,3,pin_star
+705,Accessory,꽃 머리핀,Flower Pin,400,4,pin_flower
+706,Accessory,하트 핀,Heart Pin,400,5,pin_heart
+707,Accessory,나비 핀,Butterfly,450,6,pin_butterfly
+708,Accessory,체리 핀,Cherries,400,7,pin_cherry
+709,Accessory,달 핀,Moon Pin,400,8,pin_moon
+710,Accessory,노란 리본,Yellow Bow,300,9,ribbon_yellow
+711,Accessory,보라 리본,Purple Bow,300,10,ribbon_purple
+716,Accessory,분홍 리본,Pink Bow,300,11,ribbon_pink
+717,Accessory,초록 리본,Green Bow,300,12,ribbon_green
+712,Accessory,잎 핀,Leaf Pin,400,13,pin_leaf
+713,Accessory,딸기 핀,Berry Pin,400,14,pin_berry
+714,Accessory,음표 핀,Note Pin,400,15,pin_note
+715,Accessory,눈꽃 핀,Snow Pin,450,16,pin_snow
+718,Accessory,곡괭이 핀,Pick Pin,400,17,pin_pick
+719,Accessory,다이아 핀,Gem Pin,600,18,pin_diamond
+720,Accessory,금화 핀,Coin Pin,500,19,pin_coin
+721,Accessory,루비 핀,Ruby Pin,550,20,pin_ruby
+722,Accessory,흰 리본,White Bow,300,21,ribbon_white
+723,Accessory,금 리본,Gold Bow,500,22,ribbon_gold
+801,Pickaxe,곡괭이,Pickaxe,0,0,w_pick
+805,Pickaxe,냉동 참치,Tuna,500,1,w_tuna
+806,Pickaxe,야구 방망이,Bat,400,2,w_bat
+807,Pickaxe,대파,Scallion,300,3,w_leek
+808,Pickaxe,프라이팬,Frying Pan,400,4,w_pan
+809,Pickaxe,계란 팬,Egg Pan,500,5,w_pan_egg
+815,Pickaxe,분홍 곡괭이,Pink Pick,300,6,w_pick_pink
+816,Pickaxe,하늘 곡괭이,Sky Pick,300,7,w_pick_sky
+812,Pickaxe,분홍 팬,Pink Pan,450,8,w_pan_pink
+814,Pickaxe,연어,Salmon,500,9,w_salmon
+811,Pickaxe,쇠 방망이,Metal Bat,500,10,w_bat_metal
+810,Pickaxe,금 방망이,Gold Bat,700,11,w_bat_gold
+813,Pickaxe,황금 참치,Gold Tuna,900,12,w_tuna_gold
+901,Cart,쇠 광차,Iron,0,0,
+902,Cart,나무 광차,Wood,400,1,4a2c18;7a4c2c;a87444;d0a070
+903,Cart,금 광차,Gold,1000,2,6a5014;a8801c;e0b830;fce070
+904,Cart,분홍 광차,Pink,600,3,6a2848;a84878;e080a8;fcc0d8
+905,Cart,민트 광차,Mint,600,4,1e5a4a;2e8a70;58c0a0;a0ecd0
+906,Cart,은 광차,Silver,800,5,4a4c58;7c8090;b4b8c8;e8ecf4
+907,Cart,하늘 광차,Sky,600,6,1e4a6a;2e7aa8;58a8d8;a8dcf8
+908,Cart,보라 광차,Purple,600,7,3e2058;6a3c90;9c6cc8;d4b0f0
+909,Cart,빨간 광차,Red,600,8,5a1418;922828;cc4440;f08070
+910,Cart,먹색 광차,Charcoal,700,9,1e1c24;2e2c36;46444e;6a6874
+1001,Pile,효과 없음,No Effect,0,0,
+1002,Pile,반짝이,Sparkle,800,1,sparkle
+1003,Pile,금 테두리,Gold Rim,1200,2,gold_rim
+1004,Pile,하트,Hearts,900,3,hearts
+1005,Pile,눈송이,Snow,900,4,snow
+1006,Pile,분홍테두리,Pink Rim,1000,5,pink_rim
+1007,Pile,하늘테두리,Sky Rim,1000,6,sky_rim
+1008,Pile,꽃잎,Petals,900,7,petals
+1009,Pile,음표,Notes,900,8,notes
+1010,Pile,비눗방울,Bubbles,900,9,bubbles
+1201,HairStyle,단발,Bob,0,0,
+1203,HairStyle,똥머리,Bun,400,1,bun
+1204,HairStyle,포니테일,Ponytail,400,2,pony
+1205,HairStyle,긴 머리,Long Hair,500,3,long
+1206,HairStyle,땋은 머리,Braid,500,4,braids
+1207,HairStyle,양갈래,Twin Tails,500,5,twin
+1208,HairStyle,양쪽 똥머리,Two Buns,500,6,dbun
+1209,HairStyle,반묶음,Half-Up,400,7,halfup
+1210,HairStyle,히메컷,Hime Cut,500,8,hime
+1211,HairStyle,웨이브 머리,Wavy,550,9,wavy
+1212,HairStyle,하이 포니,High Pony,500,10,high_pony
+1213,HairStyle,긴 포니테일,Long Pony,550,11,long_pony
+1214,HairStyle,꽁지머리,Nape Tail,400,12,nape_tail
+1215,HairStyle,높은 양갈래,High Twins,550,13,high_twin
+1216,HairStyle,땋은 양갈래,Twin Braids,550,14,twin_braids
+1217,HairStyle,드릴 양갈래,Drills,600,15,drills
+1218,HairStyle,투사이드업,Side Up,450,16,two_side_up
+1219,HairStyle,경단 꼬리,Bun Tails,550,17,bun_tails
+1220,HairStyle,낮은 똥머리,Low Bun,450,18,low_bun
+1221,HairStyle,댕기머리,Daenggi,550,19,daenggi
+1222,HairStyle,옆 땋은 머리,Side Braid,500,20,side_braid
+1223,HairStyle,사이드 포니,Side Pony,500,21,side_pony
+1224,HairStyle,뽀글 파마,Perm,500,22,perm
+1225,HairStyle,땋은 포니,Braid Pony,550,23,braid_pony
+1226,HairStyle,물결 양갈래,Wavy Twins,550,24,wavy_twin
+1227,HairStyle,고리 땋기,Loops,550,25,loop_braids
+1228,HairStyle,울프컷,Wolf Cut,500,26,wolf
+1229,HairStyle,올림머리,Updo,500,27,twist_updo
+1230,HairStyle,바람 머리,Windswept,600,28,windy
+1231,HairStyle,세 갈래 꽁지,Tri Tails,450,29,tri_tails

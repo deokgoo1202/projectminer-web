@@ -1,0 +1,37 @@
+# 정본 = Studio/projects/ProjectMiner/docs/system/컬렉션(Collection)/system.md 1-2-1-B (2026-11-04 · D84)
+# Items = 옷 Id(; 로 나눈다) · Stat = PickPower | SwingSpeed | OreValue | ExpGain · Value = 만분율(500 = +5%) · Lines = 이야기 줄 수(UI_STORY_{Id}_{n}) · Art = StreamingAssets/Art/story/{Art}.png · 값 AI 잠정
+Id,Order,Items,Stat,Value,Lines,Art
+1,1,209;307;407;506,OreValue,500,8,story_maid
+2,2,306;406;505,CritChance,500,8,story_school
+3,3,308;408;507,SwingSpeed,300,8,story_hanbok
+4,4,309;409;508,PickPower,500,8,story_coverall
+5,5,310;410,CritDamage,1000,8,story_nurse
+6,6,212;215;315;413,PickPower,500,8,story_safety
+7,7,211;314;510,SwingSpeed,300,8,story_winter
+8,8,210;313;411;509,OreValue,500,8,story_picnic
+9,9,213;311;412;511,CritChance,300,8,story_painter
+10,10,216;312;414;504,SwingSpeed,300,8,story_mushroom
+11,11,214;316;402;503,CritDamage,1000,8,story_flower
+12,12,317;415;504,CritChance,300,8,story_rain
+13,13,219;319;418;510,OreValue,500,8,story_xmas
+14,14,223;308;419;507,SwingSpeed,300,8,story_gat
+15,15,221;320;417;506,CritDamage,1000,8,story_witch
+16,16,218;318;416;509,PickPower,500,8,story_bear
+17,17,217;311;413;509,PickPower,300,8,story_ball
+18,18,227;311;416;508,OreValue,300,8,story_pirate
+19,19,228;321;413;509,SwingSpeed,300,8,story_summer
+20,20,224;322;421;505,CritChance,300,8,story_cook
+21,21,225;314;420;510,PickPower,300,8,story_walk
+22,22,220;316;417;506,CritDamage,1000,8,story_princess
+23,23,222;313;413;508,OreValue,500,8,story_lumber
+24,24,229;323;423;506,CritDamage,1000,8,story_rainbow
+25,25,212;324;422;508,PickPower,300,8,story_camp
+26,26,230;325;413;504,OreValue,300,8,story_frog
+27,27,226;320;412;505,SwingSpeed,300,8,story_ribbon
+28,28,231;316;421;506,CritChance,300,8,story_spring
+29,29,234;328;424;503,PickPower,300,8,story_berry
+30,30,235;329;426;504,SwingSpeed,300,8,story_bee
+31,31,233;327;425;510,CritChance,300,8,story_fox
+32,32,232;326;412;505,OreValue,300,8,story_panda
+33,33,236;330;427;510,SwingSpeed,300,8,story_night
+34,34,237;331;428;506,OreValue,300,8,story_tulip
